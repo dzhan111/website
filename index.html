@@ -11,30 +11,32 @@
 <body>
     <nav>
         <ul class="sidebar">
-            <li><a href="#">Title</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M256-192.348 192.348-256l224-224-224-224L256-767.652l224 224 224-224L767.652-704l-224 224 224 224L704-192.348l-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">hmmm</a></li>
+            <li><a href="#">some</a></li>
         </ul>
         <ul>
-            <li><a href="#">Title</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="#">home</a></li>
+            <li class="hideOnMobile"> <a href="#">about</a></li>
+            <li class="hideOnMobile"><a href="#">hmmm</a></li>
+            <li class="hideOnMobile"><a href="#">some</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M111.869-228.282v-91.001h736.262v91.001H111.869Zm0-206.218v-91h736.262v91H111.869Zm0-206.217v-91.001h736.262v91.001H111.869Z"/></svg></a></li>
         </ul>
     </nav>
-    <div id="intro">
-        Hi, I'm David Zhan. I'm a 2nd year computer science major at the university of Pennsylvania.
+    <div class="intro">
+        Hi, I'm David Zhan. 
+        I'm a 2nd year computer science major at the university of Pennsylvania.<br><br>
+        Here are my socials<br>
+        <a class="link" href="https://www.linkedin.com/in/davidzhan123/">LinkedIn</a>
+        <br>
+        <a class="link" href="https://github.com/dzhan111">Github</a>
+        <br><br>
+        Here's a picture of me playing soccer<br><br>
+        <img class="pic" src="soccer.jpg">
     </div>
     <br>
 
-    <div id="social">
-        Here are my socials<br>
-        <a href="https://www.linkedin.com/in/davidzhan123/">LinkedIn</a>
-        <br>
-        <a href="https://github.com/dzhan111">Github</a>
-
-    </div>
 </body>
 </html>
 
