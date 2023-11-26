@@ -34,12 +34,18 @@ nav a{
     padding: 0 30px;
     text-decoration: none;
     display: flex;
+    height:auto;
     align-items: center;
     color: black;
 }
 
+nav a span {
+    cursor: pointer;
+    padding: none;
+}
+
 nav a:hover{
-    background-color: #f0f0f0;
+    color:blueviolet;
 }
 nav li:first-child {
     margin-right: auto;
@@ -62,9 +68,7 @@ nav li:first-child {
 }
 .sidebar li{
     width: 100%;
-
 }
-
 
 .sidebar a{
     width:100%;
@@ -73,7 +77,7 @@ nav li:first-child {
     display: none;
 }
 
-@media(max-width: 500px){
+@media(max-width: 400px){
     .hideOnMobile{
         display: none;
     }
@@ -85,6 +89,13 @@ nav li:first-child {
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
+        padding: 20px;
+        padding-right: 0;
+    }
+    .Mobile{
+        padding-top: 10%;
+        text-align: center;
+        font-size: 200%;
     }
 }
 
