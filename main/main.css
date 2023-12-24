@@ -27,6 +27,7 @@ nav ul {
 
 nav li {
     height: 20px;
+    
 }
 
 nav a{
@@ -37,6 +38,7 @@ nav a{
     height:auto;
     align-items: center;
     color: black;
+    
 }
 
 nav a span {
@@ -46,6 +48,7 @@ nav a span {
 
 nav a:hover{
     color:blueviolet;
+    
 }
 nav li:first-child {
     margin-right: auto;
@@ -72,6 +75,7 @@ nav li:first-child {
 
 .sidebar a{
     width:100%;
+    
 }
 .menu-button{
     display: none;
@@ -123,10 +127,9 @@ nav li:first-child {
   }
 
   .intro{
-    padding-top: 10%;
+   
     color:black;
-    width: 50%;
-    margin: auto;
+    margin: 10%;
     
   }
   .pic{
