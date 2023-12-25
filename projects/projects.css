@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     min-height: 100vh;
     background-size: cover;
@@ -19,12 +20,30 @@ body h1{
 }
 
 
+/* ------------------------------------------------*/
+/* project div vvvvv */
+/* ------------------------------------------------*/
+
 div{
     position: relative;
     padding-left: 10%;
     margin-top: 10%;
 }
 
+div h3{
+    text-decoration: underline;
+}
+.langs{
+    font-weight:600;
+}
+.icon {
+    padding-top:50px;
+}
+
+
+/* ------------------------------------------------*/
+/* nav bar  vvvvv */
+/* ------------------------------------------------*/
 nav {
     padding-top: 30px;
     background-color:transparent;
@@ -113,6 +132,10 @@ nav li:first-child {
     }
 }
 
+/* ------------------------------------------------*/
+/* nav bar ^^*/
+/* ------------------------------------------------*/
+
 .link {
     text-decoration: none;
     background:
@@ -136,18 +159,5 @@ nav li:first-child {
     background-size: 0 3px, 100% 3px;
   }
 
-  .intro{
-    padding-top: 10%;
-    color:black;
-    width: 50%;
-    margin: auto;
-    
-  }
-  .pic{
-    padding-top: 10%;
-    color:black;
-    width: 100%;
-    margin: auto;
-  }
 
   
