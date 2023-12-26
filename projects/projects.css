@@ -28,13 +28,15 @@ div{
     position: relative;
     padding-left: 10%;
     margin-top: 10%;
+    margin-bottom: 10%
 }
 
 div h3{
     text-decoration: underline;
 }
 .langs{
-    font-weight:600;
+   
+    text-decoration: underline;
 }
 .icon {
     padding-top:50px;
