@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.project {
+  background-color: rgb(86, 86, 122);
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.introduction{
+  font-family: 'Courier New', Courier, monospace;
+  
+  padding: 20px;
+  margin: 10px;
+}
+
