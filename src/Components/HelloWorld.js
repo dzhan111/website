@@ -1,6 +1,6 @@
 import React from "react";
 
-function introduction(props){
+function HelloWorld(props){
     return (
        <h1 className="introduction">Hi I'm {props.name}</h1>
     )
