@@ -1,7 +1,13 @@
 import React from 'react';
 
 const AboutPage = () => {
-    return <div>About Page YUHHH</div>;
+    return <div>
+        <p className='exp'>
+            Summer 2022 - Cinnabon Cashier
+            
+        </p>
+       
+    </div>;
 }
 
 export default AboutPage;

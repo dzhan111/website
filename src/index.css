@@ -44,6 +44,16 @@ code {
   margin: 10px;
 }
 
+.exp{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 20%;
+  margin: 10px;
+}
 
 
 nav {
