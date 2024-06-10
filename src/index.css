@@ -23,24 +23,25 @@ code {
   border-radius: 5px;
 }
 
-.introduction{
+.introduction{ 
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
-  font-weight: bolder;
+  font-weight: normal;
   text-align: center;
-  padding-top: 10%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 30%;
+  padding-right: 30%;
   margin: 10px;
+  line-height: 2;
 }
-.intro{
+/* header for introduction*/
+.intro{ 
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
-  font-weight: bolder;
+  font-weight:bold;
   text-align: center;
   padding-top: 10%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 30%;
+  padding-right: 30%;
   margin: 10px;
 }
 
@@ -55,7 +56,7 @@ code {
   margin: 10px;
 }
 
-
+/* NAVIGATION */
 nav {
   background-color: #333;
   color: white;
@@ -89,8 +90,36 @@ nav ul li a:hover {
 }
 
 
-.intro {
 
+
+/* EXPERIENCE */
+.experience {
+   
+  margin: 20px;
+  padding: 20px;
+  
+  border: 1px solid #8ca4bc;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.experience h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #333; /* Dark grey color for text */
+  margin-bottom: 10px; /* Space between the title and description */
+}
+
+.experience p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #373737; /* Lighter text color for description */
+  font-weight:bold;
+  line-height: 1.6; /* Improved line spacing for readability */
+}
+
+.experience h3 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #666666cf; /* Lighter text color for description */
+  line-height: 1; /* Improved line spacing for readability */
 }
 
 
