@@ -13,16 +13,9 @@ code {
     monospace;
 }
 
-.project {
-  background-color: rgb(86, 86, 122);
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
-  padding: 20px;
-  margin: 10px;
-  border: 2px solid white;
-  border-radius: 5px;
-}
 
+
+/* HOME PAGE*/
 .introduction{ 
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
@@ -30,6 +23,7 @@ code {
   text-align: center;
   padding-left: 30%;
   padding-right: 30%;
+  padding-bottom: 10%;
   margin: 10px;
   line-height: 2;
 }
@@ -45,16 +39,6 @@ code {
   margin: 10px;
 }
 
-.exp{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: large;
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 20%;
-  margin: 10px;
-}
 
 /* NAVIGATION */
 nav {
@@ -62,6 +46,9 @@ nav {
   color: white;
   text-align: center;
   padding: 10px 0;
+}
+nav .right {
+  text-align: right;
 }
 
 nav ul {
@@ -122,4 +109,39 @@ nav ul li a:hover {
   line-height: 1; /* Improved line spacing for readability */
 }
 
+
+
+
+/* PROJECT PAGE */
+.project {
+  margin: 20px;
+  padding: 20px;
+  
+  border: 1px solid #8ca4bc;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.project p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #373737; /* Lighter text color for description */
+  font-weight:bold;
+  line-height: 1.6; /* Improved line spacing for readability */
+}
+
+.project h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #333; /* Dark grey color for text */
+  margin-bottom: 10px; /* Space between the title and description */
+}
+
+.project h3 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #666666cf; /* Lighter text color for description */
+  line-height: 1; /* Improved line spacing for readability */
+}
+
+.project a {
+  font-family: 'Courier New', Courier, monospace;
+}
 

@@ -1,14 +1,14 @@
 import React from "react";
 
-function Project(props){
+function Project(props) {
+    const { name, desc, link } = props;
     return (
-        <p className="project">
-        <h3 className="project-title"> {props.name}</h3>
-        <h4 className="project-desc"> {props.desc}</h4>
-        <a className="project-link"> {props.link} </a>
-        </p>
-
-    )
+        <div className="project">
+            <h2>{name}</h2>
+            <p>{desc}</p>
+            <a href={link}>Project Link</a>
+        </div>
+    );
 }
 
 export default Project;
