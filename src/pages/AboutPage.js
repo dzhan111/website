@@ -7,7 +7,7 @@ const AboutPage = () => {
          title="Software Development Intern" 
          company ="Ventoscity"
          date = "Summer 2024"
-         description="idk"
+         description="Developed food recognition software using GPT4o for app users to record daily fiber intake"
         />
         <Experience
          title="Frontend Software Engineering Intern" 
